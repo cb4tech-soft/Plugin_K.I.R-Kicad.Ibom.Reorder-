@@ -1,0 +1,4 @@
+[submodule "K.I.R.-Kicad-Ibom-Reorder"]
+	path = K.I.R.-Kicad-Ibom-Reorder
+	url = https://github.com/cb4tech-soft/K.I.R.-Kicad-Ibom-Reorder.git
+	branch = pluginkir

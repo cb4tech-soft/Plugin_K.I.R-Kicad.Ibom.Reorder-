@@ -1,0 +1,28 @@
+import pcbnew
+import wx
+import webbrowser
+from pathlib import Path
+
+class hello_world(pcbnew.ActionPlugin):
+    def defaults(self):
+        
+        plugin_dir = Path(__file__).resolve().parent
+        
+        
+        self.icon_file_name = str(plugin_dir / "icon.png")
+        
+        self.show_toolbar_button = True
+        self.name = "Ouvrir Site Web"
+        self.category = "Aide"
+        self.description = "Ouvre la documentation en ligne"
+
+    def Run(self):
+        
+        plugin_dir = Path(__file__).resolve().parent
+        html_path = plugin_dir / "K.I.R.-Kicad-Ibom-Reorder" / "KIR_V2.html"
+        
+        if not html_path.exists():
+            wx.MessageBox(f"Erreur : Fichier introuvable à \n{html_path}", "Erreur")
+            return
+
+        webbrowser.open(html_path.as_uri())

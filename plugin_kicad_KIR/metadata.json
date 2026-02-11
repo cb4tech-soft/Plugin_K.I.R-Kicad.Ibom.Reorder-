@@ -1,0 +1,31 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "Kicad Ibom Reorder Plugin!",
+    "description": "Open KIR",
+    "description_full": "This is a plugin made for reorder an Kicad IBOM.",
+    "identifier": "com.github.KIR",
+    "type": "plugin",
+    "author": {
+        "name": "Paul",
+        "contact": {
+            "github": "https://github.com/cb4tech-soft"
+        }
+    },
+    "maintainer": {
+        "name": "Paul",
+        "contact": {
+            "github": "https://github.com/cb4tech-soft"
+        }
+    },
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://github.com/cb4tech-soft/K.I.R.-Kicad-Ibom-Reorder"
+    },
+    "versions": [
+        {
+            "version": "1.0",
+            "status": "stable",
+            "kicad_version": "9.0"
+        }
+    ]
+}
