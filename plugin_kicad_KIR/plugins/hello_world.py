@@ -12,9 +12,9 @@ class hello_world(pcbnew.ActionPlugin):
         self.icon_file_name = str(plugin_dir / "icon.png")
         
         self.show_toolbar_button = True
-        self.name = "Ouvrir Site Web"
+        self.name = "Open K.I.R"
         self.category = "Aide"
-        self.description = "Ouvre la documentation en ligne"
+        self.description = "Open the Kicad Ibom Reorder"
 
     def Run(self):
         
@@ -22,7 +22,7 @@ class hello_world(pcbnew.ActionPlugin):
         html_path = plugin_dir / "KIR" / "KIR_V2.html"
         
         if not html_path.exists():
-            wx.MessageBox(f"Erreur : Fichier introuvable à \n{html_path}", "Erreur")
+            wx.MessageBox(f"Error : File not found in \n{html_path}", "Error")
             return
 
         webbrowser.open(html_path.as_uri())
