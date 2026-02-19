@@ -4,23 +4,33 @@
     "description": "Dépôt des plugins CB4Tech",
     "maintainer": {
         "name": "cb4tech-soft",
-        "contact": { "web": "https://github.com/cb4tech-soft" }
+        "contact": { 
+            "web": "https://github.com/cb4tech-soft",
+            "email": "contact@cb4tech.com"
+        }
     },
     "packages": [
         {
-            "name": "K.I.R - Kicad.Ibom.Reorder",
             "identifier": "com.cb4tech.kir-reorder",
+            "name": "K.I.R - Kicad.Ibom.Reorder",
             "description": "Plugin pour réordonner les composants",
             "description_full": "Plugin KiCad permettant de réordonner les composants pour Interactive Html Bom.",
+            "category": "Layout",
             "type": "plugin",
             "license": "MIT",
             "author": {
                 "name": "cb4tech-soft",
-                "contact": { "web": "https://github.com/cb4tech-soft" }
+                "contact": { 
+                    "web": "https://github.com/cb4tech-soft",
+                    "email": "contact@cb4tech.com"
+                }
             },
             "maintainer": {
                 "name": "cb4tech-soft",
-                "contact": { "web": "https://github.com/cb4tech-soft" }
+                "contact": { 
+                    "web": "https://github.com/cb4tech-soft",
+                    "email": "contact@cb4tech.com"
+                }
             },
             "versions": [
                 {
