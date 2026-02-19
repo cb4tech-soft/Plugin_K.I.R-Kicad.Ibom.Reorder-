@@ -1,5 +1,5 @@
-from .hello_world import hello_world
+from .plugin_kir import plugin_kir
 
 #init plugin
 
-hello_world().register()
+plugin_kir().register()

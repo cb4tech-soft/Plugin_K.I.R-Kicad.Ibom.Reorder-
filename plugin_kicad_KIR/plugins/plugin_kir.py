@@ -18,7 +18,7 @@ def _debug_log(msg):
     except Exception:
         pass
 
-class hello_world(pcbnew.ActionPlugin):
+class plugin_kir(pcbnew.ActionPlugin):
     def defaults(self):
         plugin_dir = Path(__file__).resolve().parent
         icon_path = plugin_dir / "icon.png"
