@@ -1,4 +1,7 @@
 {
+    "name": "CB4Tech KiCad Plugins",
+    "identifier": "com.cb4tech.repository",
+    "description": "Dépôt officiel des plugins de cb4tech-soft",
     "packages": [
         {
             "identifier": "com.cb4tech.kir-reorder",
