@@ -2,9 +2,8 @@
     "name": "CB4Tech KiCad Plugins",
     "identifier": "com.cb4tech.repository",
     "description": "Dépôt officiel des plugins de cb4tech-soft",
-    "packages": [
-        {
-            "identifier": "com.cb4tech.kir-reorder",
+    "packages": {
+        "com.cb4tech.kir-reorder": {
             "name": "K.I.R - Kicad.Ibom.Reorder",
             "description": "Plugin pour réordonner les composants pour Interactive Html Bom",
             "author": {
@@ -17,11 +16,11 @@
                     "status": "stable",
                     "kicad_version": "9.0",
                     "download_sha256": "72c3ee5c2f6227b2a8eecb44eb47a80825ee1a4f40b332cec41dfa76bd05bb8a",
-                    "download_size": 0,
+                    "download_size": 25000,
                     "download_url": "https://cb4tech-soft.github.io/Plugin_K.I.R-Kicad.Ibom.Reorder-/plugins/plugin_kir.zip",
-                    "install_size": 0
+                    "install_size": 100000
                 }
             ]
         }
-    ]
+    }
 }
