@@ -2,6 +2,11 @@
     "name": "CB4Tech KiCad Plugins",
     "identifier": "com.cb4tech.repository",
     "description": "Dépôt officiel des plugins de cb4tech-soft",
+    "url": "https://cb4tech-soft.github.io/Plugin_K.I.R-Kicad.Ibom.Reorder-/repository.json",
+    "maintainer": {
+        "name": "cb4tech-soft",
+        "contact": { "web": "https://github.com/cb4tech-soft" }
+    },
     "packages": {
         "com.cb4tech.kir-reorder": {
             "name": "K.I.R - Kicad.Ibom.Reorder",
