@@ -15,6 +15,9 @@
                 "name": "cb4tech-soft",
                 "contact": { "web": "https://github.com/cb4tech-soft" }
             },
+            "resources": {
+                "homepage": "https://github.com/cb4tech-soft/Plugin_K.I.R-Kicad.Ibom.Reorder-"
+            },
             "versions": [
                 {
                     "version": "1.0.0",
